@@ -1,0 +1,28 @@
+# Bagian 1: Membandingkan nilai a = 7 dan b = 10
+a = 7
+b = 10
+
+if a > b:
+    besar = a
+    kecil = b
+else:
+    besar = b
+    kecil = a
+
+print(f"{kecil} Lebih kecil dari {besar}")
+
+# Baris kosong untuk memisahkan hasil bagian 1 dan bagian 2
+print()
+
+# Bagian 2: Membandingkan nilai a = 100 dan b = 50
+a = 100
+b = 50
+
+if a > b:
+    besar = a
+    kecil = b
+else:
+    besar = b
+    kecil = a
+
+print(f"{kecil} Lebih kecil dari {besar}")
