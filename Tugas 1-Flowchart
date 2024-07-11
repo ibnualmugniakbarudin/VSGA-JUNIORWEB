@@ -26,3 +26,4 @@ else:
     kecil = a
 
 print(f"{kecil} Lebih kecil dari {besar}")
+
