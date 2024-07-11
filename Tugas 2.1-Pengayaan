@@ -1,0 +1,25 @@
+import math
+
+while True:
+    # Tugas 1: Menghitung Luas Lingkaran
+    radius = float(input("Masukkan jari-jari lingkaran: "))
+    luas = math.pi * radius * radius
+    print(f"Luas Lingkaran adalah: {luas}")
+
+    # Tugas 2: Mengecek 2 Masukan Bilangan
+    a = int(input("Masukkan bilangan pertama: "))
+    b = int(input("Masukkan bilangan kedua: "))
+
+    if a == b:
+        print("Bilangan pertama sama dengan bilangan kedua.")
+    elif a > b:
+        print("Bilangan pertama lebih besar dari bilangan kedua.")
+    else:
+        print("Bilangan pertama lebih kecil dari bilangan kedua.")
+
+    # Tugas 3: Mengulang Proses
+    repeat = input("Apakah akan memeriksa lagi (Y/T)? ").strip().lower()
+    if repeat != 'y':
+        break
+
+print("Proses selesai.")
