@@ -1,0 +1,19 @@
+# menggunakan fungsi
+# Fungsi untuk membandingkan dua bilangan
+def bandingkan_bilangan(a, b):
+    if a > b:
+        besar = a
+        kecil = b
+    else:
+        besar = b
+        kecil = a
+    print(f"{kecil} Lebih kecil dari {besar}")
+
+# Bagian 1: Membandingkan nilai a = 7 dan b = 10
+bandingkan_bilangan(7, 10)
+
+# Baris kosong untuk memisahkan hasil bagian 1 dan bagian 2
+print()
+
+# Bagian 2: Membandingkan nilai a = 100 dan b = 50
+bandingkan_bilangan(100, 50)
